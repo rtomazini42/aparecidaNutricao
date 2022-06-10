@@ -11,5 +11,5 @@ botaoAdicionar.addEventListener("click", function(){
         console.log(xhr.responseText);
         
     });
-    //xhr.send();
+    xhr.send();
 });
