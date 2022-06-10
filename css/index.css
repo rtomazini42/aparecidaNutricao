@@ -136,3 +136,11 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	background-color: #eb6363;
 }
+
+.fadeOut{
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+}
